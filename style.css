@@ -255,8 +255,19 @@ body{
 }
 
 @media(min-width: 650px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
     .container{
         width: 80%;
+    }
+
+    .header__title{
+        border: 0;
+        padding-bottom: 0px;
     }
 
     .header__theme__toggler{
