@@ -3,6 +3,7 @@ const headerBg = document.querySelector('.header__bg');
 const headerTitle = document.querySelector('.ht__text');
 const headerFollow = document.querySelector('.ht__follow');
 const themeToggler = document.querySelector('.theme__toggler');
+const themeTogglerLabel = document.querySelector('.tt__label');
 const themeTogglerButton = document.querySelector('.theme__toggler__button');
 const mcCard = document.querySelectorAll('.mc__card');
 const scoreNumber = document.querySelectorAll('.score__number');
@@ -21,6 +22,7 @@ themeToggler.addEventListener('click', () => {
     colorToggler(headerFollow, 'dt--text--grey')
     colorToggler(themeToggler, 'dt--theme--toggler')
     colorToggler(themeTogglerButton, 'dt--toggler--button')
+    colorToggler(themeTogglerLabel, 'dt--text--grey')
     colorToggler(overview, 'dt--text--white')
     multColorToggler(mcCard, 'dt--card')
     multColorToggler(mcCardName, 'dt--text--grey')
