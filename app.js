@@ -1,6 +1,7 @@
 const body = document.querySelector('body')
 const headerBg = document.querySelector('.header__bg');
 const headerTitle = document.querySelector('.ht__text');
+const headerFollow = document.querySelector('.ht__follow');
 const themeToggler = document.querySelector('.theme__toggler');
 const themeTogglerButton = document.querySelector('.theme__toggler__button');
 const mcCard = document.querySelectorAll('.mc__card');
@@ -17,6 +18,7 @@ themeToggler.addEventListener('click', () => {
     colorToggler(body, 'dt--body');
     colorToggler(headerBg, 'dt--header')
     colorToggler(headerTitle, 'dt--text--white')
+    colorToggler(headerFollow, 'dt--text--grey')
     colorToggler(themeToggler, 'dt--theme--toggler')
     colorToggler(themeTogglerButton, 'dt--toggler--button')
     colorToggler(overview, 'dt--text--white')
